@@ -38,6 +38,16 @@
         }
     }
 
+    &-green {
+        background-color: $color-primary;
+        color: $color-white;
+
+        /* animation: moveInBottom 1s ease-out; */
+        &::after {
+            background-color: $color-white;
+        }
+    }
+
     &::after {
         content: "";
         display: inline-block;
