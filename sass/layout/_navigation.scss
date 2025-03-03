@@ -1,5 +1,5 @@
 .navigation {
-    &__checbox {
+    &__checkbox {
         display: none;
     }
 
@@ -24,7 +24,7 @@
         position: fixed;
         top: 6.5rem;
         right: 6.5rem;
-        background-image: radial-gradient($color-primary-light, $color-primary-dark);
+        background-image: radial-gradient($color-primary-dark, $color-primary);       
         z-index: 1000;
         transition: transform .8s cubic-bezier(0.65, 0, 0.35, 1);
 
@@ -51,6 +51,7 @@
         list-style: none;
         text-align: center;
         width: 100%;
+        //font-weight: 700;
     }
 
     &__item {

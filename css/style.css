@@ -725,7 +725,7 @@ body {
   text-align: center;
 }
 
-.navigation__checbox {
+.navigation__checkbox {
   display: none;
 }
 .navigation__button {
@@ -748,7 +748,7 @@ body {
   position: fixed;
   top: 6.5rem;
   right: 6.5rem;
-  background-image: radial-gradient(rgba(2, 2, 2, 0.8), rgba(34, 139, 34, 0.8));
+  background-image: radial-gradient(rgba(34, 139, 34, 0.8), #55c57a);
   z-index: 1000;
   transition: transform 0.8s cubic-bezier(0.65, 0, 0.35, 1);
 }
