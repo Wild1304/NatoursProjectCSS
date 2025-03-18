@@ -4,7 +4,7 @@ body {
     font-size: 10px;
     line-height: 1.7;
     color: $color-grey-dark;
-    padding: 30px;
+    
 }
 
 .heading-primary {
@@ -58,10 +58,12 @@ body {
 
     @include respond (tab-port) {
         font-size: 3rem;
+        //padding-top: 13rem;
     }
 
     @include respond (phone) {
         font-size: 2.5rem;
+        //padding-top: 13rem;
     }
 
     &:hover {

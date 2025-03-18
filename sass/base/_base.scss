@@ -1,4 +1,6 @@
-* {
+*,
+*::after,
+*::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,6 +9,7 @@
 html {
     // This defines what 1rem is
     font-size: 62.5%; // 1 rem = 10px 10px/16px = 62.5%
+    
 
     @include respond(tab-land) {
         // width < 1200?
@@ -30,6 +33,6 @@ body {
     padding: 3rem;
 
     @include respond(tab-port) {
-        padding: 0 !important;
+        padding: 0;
     }
 }
