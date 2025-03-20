@@ -746,11 +746,32 @@ body {
   width: 33.333333%;
   display: table-cell;
 }
+@media (max-width: 75em) {
+  .popup__left {
+    width: 33.333333%;
+    display: flex;
+    position: relative;
+    top: 17%;
+    left: 17%;
+    padding-top: 1.5rem;
+  }
+}
 .popup__right {
   width: 66.6666667%;
   display: table-cell;
   vertical-align: middle;
   padding: 3rem 5rem;
+}
+@media (max-width: 75em) {
+  .popup__right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    vertical-align: middle;
+    padding: 3rem 5rem;
+    text-align: center;
+  }
 }
 .popup__img {
   display: block;
@@ -769,6 +790,11 @@ body {
   -ms-hyphens: auto;
   -webkit-hyphens: auto;
   hyphens: auto;
+}
+@media (max-width: 75em) {
+  .popup__text {
+    font-size: 1.8rem;
+  }
 }
 .popup:target {
   opacity: 1;
